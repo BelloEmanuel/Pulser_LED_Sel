@@ -59,11 +59,21 @@ _Linux Terminal_
 ```
 export SEL_SiPM_PORT=/dev/ttyUSB{X}
 ```
+or
+```
+export SEL_SiPM_PORT=/dev/ttyACM{X}
+```
+
 
 _MacOS Terminal_
 ```
 export SEL_SiPM_PORT=/dev/cu.usbserial-{XXXX}
 ```
+or
+```
+export SEL_SiPM_PORT=/dev/cu.usbmodem-{XXXX}
+```
+
 
 This can be checked after programming the FPGA and sending any command for testing. The FPGA will itself transmit an acknowledgment signal back to the computer that the command has been fully received.<br>
 
