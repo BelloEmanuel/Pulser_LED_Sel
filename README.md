@@ -96,7 +96,7 @@ This can be checked after programming the FPGA and sending any command for testi
 ./sel_SiPM_LED stop_pulsing
 ```
 
-- Reseting the LED selection goes back to LED0 or the unconnected path, depending on the actual design of the PCB.
+- Reseting the LED selection goes back to LED0 or the unconnected path, depending on the actual design of the PCB. This leaves the pulsing status unaffected.
 
 ```
 ./sel_SiPM_LED reset
