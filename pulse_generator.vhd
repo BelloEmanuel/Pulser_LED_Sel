@@ -30,7 +30,7 @@ begin
     begin
         if rising_edge(clk) then
 
-            -- Disabling returns both outputs (pulse and trigger) LOW and restarts the period
+            -- Disabling returns both outputs LOW and restarts the period.
             if enable = '0' then
                 counter   <= (others => '0');
                 pulse_r <= '0';
