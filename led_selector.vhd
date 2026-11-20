@@ -14,8 +14,8 @@ entity led_selector is
 end entity led_selector;
 
 architecture rtl of led_selector is
-    -- Two-bit control word for the PE613050 V1/V2 inputs
-    -- Update these assignments to match the final PCB routing
+    -- Two-bit control word for the PE613050 V1/V2 inputs.
+    -- Update these assignments to match the final PCB routing.
     signal led_reg : std_logic_vector(1 downto 0) := "00";
 
 begin
