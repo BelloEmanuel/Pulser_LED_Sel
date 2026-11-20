@@ -87,9 +87,9 @@ begin
         x"41"       when 0, -- A
         x"43"       when 1, -- C
         x"4B"       when 2, -- K
-        x"20"       when 3, -- space
+        x"20"       when 3, -- Space
         ack_command when 4,
-        x"0A"       when others; -- new line
+        x"0A"       when others; -- Line feed
 
     process(clk)
     begin
